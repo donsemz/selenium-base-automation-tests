@@ -1,0 +1,9 @@
+pytest -k ‘functionname’ = run single test function
+pytest -k "test_navbar" -s = print from function into console
+pytest  -k ShopTest --dashboard = generate dashboard report
+pytest -k ShopTest --html=report.html = generate html report
+pytest -k ShopTest  --browser=firefox = run test on Firefox browser
+pytest -k ShopTest  --browser=test = list all browsers that you can run test in
+pytest -n=3 =  parallel tests to run on 3 chrome instances
+pytest -k ShopTest --headless = run test in headless mode
+pip freeze > requirements.txt = save requirements for project
